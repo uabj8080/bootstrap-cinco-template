@@ -39,6 +39,267 @@
             </ol>
         </nav>
     </div>
+    <!-- formulário e abas -->
+    <div class="container-fluid">
+        <h2>Formulário e abas</h2>
+        <ul class="nav nav-tabs">
+            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#tab-blockquote">Blockquote</a></li>
+            <li class="nav-item"><a class="nav-link active" data-toggle="pill" href="#tab-form">Formulário</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#tab-table">Tabela</a></li>
+            <li class="nav-item"><a class="nav-link" data-toggle="pill" href="#tab-badges">Notificação</a></li>
+        </ul>
+        <div class="tab-content mb-5">
+            <div class="tab-pane fade p-5" id="tab-blockquote">
+                <figure class="text-center">
+                    <blockquote class="blockquote">
+                        <p>Halo effect é um viés cognitivo em qual nossos sentidos são afetados frente um
+                            conjunto de primeiras impressões, e influencia na maneira como agimos e pensamos sobre o objeto do efeito</p>
+                    </blockquote>
+                    <figcaption class="blockquote-footer">Edward Lee <cite title="Source Title">The Halo Effect</cite></figcaption>
+                </figure>
+            </div>
+            <div class="tab-pane fade active show p-5" id="tab-form">
+                <div class="container">
+                    <div class="row g-5">
+                        <div class="col-md-6">
+                            <form>
+                                <div class="mb-3">
+                                    <div class="form-check form-switch">
+                                        <input checked class="form-check-input" id="" type="checkbox">
+                                        <label class="form-check-label" for="">Touchpad</label>
+                                    </div>
+                                    <div class="form-check form-switch">
+                                        <input checked class="form-check-input" id="" type="checkbox">
+                                        <label class="form-check-label" for="">Keyboard</label>
+                                    </div>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" id="" type="checkbox">
+                                        <label class="form-check-label" for="">Mouse</label>
+                                    </div>
+                                    <div class="form-check form-switch">
+                                        <input class="form-check-input" disabled id="" type="checkbox">
+                                        <label class="form-check-label" for="">Impressora</label>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="">Opções</label>
+                                    <select class="form-select" id="">
+                                        <option>Opção 01</option>
+                                        <option>Opção 02</option>
+                                        <option>Opção 03</option>
+                                    </select>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="">Deslizante</label>
+                                    <input class="form-range" id="" type="range">
+                                </div>
+                                <fieldset aria-label="Disabled fieldset" disabled>
+                                    <div class="mb-3">
+                                        <label class="form-label" for="">Desativado</label>
+                                        <input class="form-control" id="" type="text">
+                                    </div>
+                                </fieldset>
+                                <div class="mb-3">
+                                    <div class="form-check">
+                                        <input class="form-check-input" disabled id="" type="checkbox">
+                                        <label class="form-check-label" for="">Desativado</label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input checked class="form-check-input" id="" name="" type="radio">
+                                        <label class="form-check-label" for="">Selecionado</label>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="">Opções</label>
+                                    <select class="form-select" id="">
+                                        <option>Masculino</option>
+                                        <option>Feminino</option>
+                                        <option>Infantil</option>
+                                    </select>
+                                </div>
+                                <div class="form-file mb-4">
+                                    <input class="form-file-input" id="" type="file">
+                                    <label class="form-file-label" for="">
+                                        <span class="form-file-text">Arquivo</span>
+                                        <span class="form-file-button">Selecionar</span>
+                                    </label>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="col-md-6">
+                            <form>
+                                <div class="mb-3">
+                                    <label class="form-label" for="">Nome</label>
+                                    <input class="form-control" id="" placeholder="" type="text">
+                                </div>
+                                <div class="d-flex">
+                                    <div class="col-6 mb-3 mr-2">
+                                        <label class="form-label" for="">Cidade</label>
+                                        <input aria-describedby="" class="form-control" id="" type="text">
+                                    </div>
+                                    <div class="col-6 mb-3">
+                                        <label class="form-label" for="">Estado</label>
+                                        <input aria-describedby="" class="form-control" id="" type="text">
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between">
+                                    <div class="mb-3 form-check">
+                                        <input checked class="form-check-input" id="" type="checkbox">
+                                        <label class="form-check-label" for="">Oção 01</label>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input checked class="form-check-input" id="" type="checkbox">
+                                        <label class="form-check-label" for="">Opção 02</label>
+                                    </div>
+                                    <div class="mb-3 form-check">
+                                        <input class="form-check-input" id="" type="checkbox">
+                                        <label class="form-check-label" for="">Opção 03</label>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="">Email</label>
+                                    <input class="form-control" id="" placeholder="" type="email">
+                                </div>
+                                <div class="mb-3">
+                                    <label class="form-label" for="">Senha</label>
+                                    <input class="form-control" id="" type="password">
+                                    <div class="form-text" id="emailHelp">
+                                        De 8 a 20 caracteres
+                                    </div>
+                                </div>
+                                <div class="mb-3 form-check">
+                                    <input checked class="form-check-input" id="" type="checkbox">
+                                    <label class="form-check-label" for="">Concordo com os termos</label>
+                                </div>
+                                <button class="btn btn-primary" type="submit">Cadastrar</button>
+                                <button class="btn btn-light" type="submit">Cancelar</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade py-5" id="tab-table">
+                <div class="container">
+                    <table class="table table-striped">
+                        <thead>
+                            <tr>
+                                <th scope="col">Cod</th>
+                                <th scope="col">Descrição</th>
+                                <th scope="col">Qtd</th>
+                                <th scope="col">Data</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">0021</th>
+                                <td>Água</td>
+                                <td>02</td>
+                                <td>01/07</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">00002</th>
+                                <td>Refrigerante</td>
+                                <td>01</td>
+                                <td>29/06</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">00233</th>
+                                <td>Capuccino</td>
+                                <td>22</td>
+                                <td>20/06</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">0343</th>
+                                <td>Café Normal</td>
+                                <td>02</td>
+                                <td>20/06</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <nav class="d-flex justify-content-center mt-5">
+                    <ul class="pagination">
+                        <li class="page-item disabled"><a aria-disabled="true" class="page-link" href="#!" tabindex="-1">Anterior</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">1</a></li>
+                        <li class="page-item active"><a class="page-link" href="#!">2 <span class="sr-only">(current)</span></a></li>
+                        <li class="page-item"><a class="page-link" href="#!">3</a></li>
+                        <li class="page-item"><a class="page-link" href="#!">Próximo</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="tab-pane fade" id="tab-badges">
+                <div class="p-5">
+                    <div class="row row-cols-2">
+                        <div class="row row-cols-2">
+                            <div><button class="btn btn-primary" type="button">Mensagens
+                                    <span class="badge bg-danger ml-2">98</span></button></div>
+                            <div><button class="btn btn-warning" type="button">Mensagens
+                                    <span class="badge bg-light ml-2 text-dark">98</span></button></div>
+                            <div><button class="btn btn-light" type="button">Mensagens
+                                    <span class="badge bg-danger ml-2">98</span></button></div>
+                            <div><button class="btn btn-danger" type="button">Mensagens
+                                    <span class="badge bg-light ml-2 text-dark">98</span></button></div>
+                        </div>
+                        <div class="row row-cols-3">
+                            <div><span class="badge bg-primary">21</span></div>
+                            <div><span class="badge bg-secondary">1</span></div>
+                            <div><span class="badge bg-light text-dark">509</span></div>
+                            <div><span class="badge bg-dark">98</span></div>
+                            <div><span class="badge bg-warning text-dark">14</span></div>
+                            <div><span class="badge bg-info">23</span></div>
+                            <div><span class="badge bg-success">34</span></div>
+                            <div><span class="badge bg-danger">996</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- tabela -->
+    <div class="container">
+        <h2>Tabela</h2>
+        <div class="row">
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th scope="col">Cod</th>
+                        <th scope="col">Descrição</th>
+                        <th scope="col">Qtd</th>
+                        <th scope="col">Data</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">0021</th>
+                        <td>Água</td>
+                        <td>02</td>
+                        <td>01/07</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">00002</th>
+                        <td>Refrigerante</td>
+                        <td>01</td>
+                        <td>29/06</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">00233</th>
+                        <td>Capuccino</td>
+                        <td>22</td>
+                        <td>20/06</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">0343</th>
+                        <td>Café Normal</td>
+                        <td>02</td>
+                        <td>20/06</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <br>
+    <br>
+    <br>
     <!-- footer -->
     <footer class="bg-dark text-light">
         <div class="row m-0 p-3 pt-5">
